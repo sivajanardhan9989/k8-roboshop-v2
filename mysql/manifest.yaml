@@ -72,7 +72,6 @@ spec:
       containers:
       - name: mysql
         image: sivajanardhan/mysql:5.0.0
-        args: ["--mysql-native-password=ON"]
         envFrom:
         - configMapRef:
             name: mysql
